@@ -1,0 +1,296 @@
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    font-family: "DejaVu Serif";
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #181426;
+    color: white;
+}
+
+#app{
+    overflow: hidden;
+}
+
+#main-content{
+    flex:1;
+    height: 89.5%;
+    overflow: auto;
+}
+
+.header-element{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header{
+    height: 64.1px;
+}
+
+.footer-element{
+    color: white;
+    max-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    height: 40px;
+}
+
+.movie{
+    display: flex;
+    flex-direction: row;
+    width: 675px;
+    margin: 10px 20px 20px 20px;
+}
+
+.movie-poster{
+    width: 180px;
+    height: 275px;
+    margin: 20px;
+}
+
+.movie-synopsis{
+    text-align: justify;
+}
+
+.movie-content h3{
+    margin-top: 15px;
+}
+
+.movie-content{
+    color: white;
+}
+
+.card{
+    border: #54a193 5px solid;
+}
+
+#defilement{
+    width: 700px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 3px;
+    border: 4px mediumpurple solid;
+}
+
+.list-card{
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+#index-movie-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: auto;
+    width: 1000px;
+    border: 4px #54a193 solid;
+}
+
+#movie-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#solo-movie{
+    border: 4px #54a193 solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto auto;
+    width: 940px;
+}
+
+#solo-img{
+    margin: 20px;
+    width: 230px;
+    height: 340px;
+}
+
+#solo-title{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#solo-year{
+    margin-bottom: 25px;
+}
+
+#solo-synopsis{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+#pages-button-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#btn-plus{
+    margin-left: 3px;
+}
+
+#btn--{
+    margin-right: 3px;
+}
+
+#search-form{
+    width: 365px;
+    display: flex;
+    margin-left: auto;
+    order: 2;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#search-div{
+    display: flex;
+    height: 90px;
+}
+
+#commentaires{
+    border: 4px solid #90209c;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 50px auto auto;
+}
+
+.commentaire{
+    margin: 10px;
+}
+
+.com-com{
+    margin-left: 10px;
+}
+
+.com-pseudo{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.com-form-style{
+    width: 600px;
+    margin: 20px auto auto;
+    border: 4px solid #90209c;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#com-form-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#com-form-form *{
+    margin: 10px;
+}
+
+#tri-form{
+    margin: 20px;
+}
+
+.button{
+    width: 240px;
+    height: 400px;
+}
+
+#add-form{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border: 4px solid #90209c;
+    border-radius: 5px;
+    width: 940px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#affiche{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#film-infos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#previsu{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    margin: 50px auto auto;
+    border: 4px solid #54a193;
+    border-radius: 5px;
+    width: 940px;
+}
+
+#log-div{
+    border: 4px solid #232881;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    margin: 250px auto auto;
+}
+
+#log-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+}
+
+#log-form *{
+    margin: 0px 20px 20px;
+}
+
+.error{
+    font-size: 2em;
+    color: orangered;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carousel-item.active{
+    display: flex;
+    flex-direction: row;
+}
+
+#com-label{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    font-weight: bold;
+    font-size: 1.45em;
+}
